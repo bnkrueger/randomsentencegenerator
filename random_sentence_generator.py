@@ -17,6 +17,7 @@ def write_to_file(sentence, filename="randomsentence.txt"):
 
 def read_from_file(filename="randomsentence.txt"):
     # read random sentence from file
+    # this function can be erased if you are using another program to read the text file
     with open(filename, "r") as file:
         sentence = file.read()
 
