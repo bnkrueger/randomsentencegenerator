@@ -15,6 +15,10 @@ def write_to_file(sentence, filename="randomsentence.txt"):
     with open(filename, "w") as file:
         file.write(sentence)
 
+# request random sentence
+random_sentence = generate_random_sentence()
+write_to_file(random_sentence)
+
 def read_from_file(filename="randomsentence.txt"):
     # read random sentence from file
     # this function can be erased if you are using another program to read the text file
