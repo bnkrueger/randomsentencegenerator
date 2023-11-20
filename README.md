@@ -11,6 +11,8 @@ How you read this file will be different depending on the language you are using
 program called read_from_file. If you are not using Python you can delete this function as you will be reading the text 
 file via your other language.
 
+To generate a random sentence run random_sentence_generator.py and a random sentence will be generated to the file 
+name: randomsentence.txt
 
             USER                            SCRIPT                               FILE
               :                                 :                                 :
